@@ -46,9 +46,9 @@ class _MyHomePageState extends State<MyHomePage> {
             ),
           ),
           Container(
-              child: new GestureDetector(
-                onTap: () => _toggleColor(),
-              ),
+            child: new GestureDetector(
+              onTap: () => _toggleColor(),
+            ),
           )
         ],
       ),
